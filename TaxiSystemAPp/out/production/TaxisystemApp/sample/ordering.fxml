@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #022c43;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.OrderingTaxi">
+   <children>
+      <AnchorPane layoutY="61.0" prefHeight="339.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <AnchorPane layoutY="4.0" prefHeight="331.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+               <children>
+                  <Label layoutX="284.0" layoutY="28.0" text="Ordering taxi">
+                     <font>
+                        <Font name="Berlin Sans FB" size="24.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="econom" layoutX="67.0" layoutY="94.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="102.0" style="-fx-background-color: #ffd700;" text="Economy" />
+                  <Button fx:id="comfort" layoutX="365.0" layoutY="94.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="102.0" style="-fx-background-color: #ffd700;" text="Comfort" />
+                  <Button fx:id="comfortplus" layoutX="365.0" layoutY="148.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="102.0" style="-fx-background-color: #ffd700;" text="Comfort+" />
+                  <Button fx:id="minivan" layoutX="67.0" layoutY="148.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="102.0" style="-fx-background-color: #ffd700;" text="Minivan" />
+                  <Button fx:id="cargo" layoutX="67.0" layoutY="199.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="102.0" style="-fx-background-color: #ffd700;" text="Cargo" />
+                  <Button fx:id="quick" layoutX="365.0" layoutY="199.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="102.0" style="-fx-background-color: #ffd700;" text="Quick" />
+                  <Label layoutX="180.0" layoutY="98.0" prefHeight="27.0" prefWidth="132.0" text="-200tg/km" />
+                  <Label layoutX="180.0" layoutY="152.0" prefHeight="27.0" prefWidth="132.0" text="-500tg/km" />
+                  <Label layoutX="180.0" layoutY="203.0" prefHeight="27.0" prefWidth="132.0" text="-1000tg/km" />
+                  <Label layoutX="481.0" layoutY="98.0" prefHeight="27.0" prefWidth="132.0" text="-350tg/km" />
+                  <Label layoutX="481.0" layoutY="152.0" prefHeight="27.0" prefWidth="132.0" text="-550tg/km" />
+                  <Label layoutX="481.0" layoutY="203.0" prefHeight="27.0" prefWidth="132.0" text="-800tg/km" />
+                  <Label alignment="TOP_CENTER" layoutX="284.0" layoutY="55.0" prefHeight="27.0" prefWidth="132.0" text="cost per km">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Label layoutX="273.0" layoutY="13.0" prefHeight="43.0" prefWidth="153.0" text="Taxi System" textFill="#e8ffff">
+         <font>
+            <Font name="Berlin Sans FB" size="31.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
