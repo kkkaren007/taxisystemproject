@@ -9,4 +9,4 @@ There are 6 types of classes:
 4. Controllers: these classes are used to pass values from Class Application to the repository classes;
 5. Application: this class is used to work with users;
 6. Main: To get access to the class Application
-7. Application: it is needed for a rough understanding of how the future application will look like
+7. App: it is needed for a rough understanding of how the future application will look like
